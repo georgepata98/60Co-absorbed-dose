@@ -57,6 +57,6 @@ void MyEventAction::EndOfEventAction(const G4Event *event)
         fRunAction->AddDdep(dose);
 
         sum += dose;  //doza totala (verificare cu ce afiseaza la final de run)
-        *fOutputFile << "Event no." << event->GetEventID() << " / Absorbed dose in current event: " << dose / gray << " Gy " << sum / gray << G4endl;
+        *fOutputFile << "Event no." << event->GetEventID() << " --> Absorbed dose in current event: " << dose / gray << " Gy " << sum / gray << G4endl;
     }
 }
