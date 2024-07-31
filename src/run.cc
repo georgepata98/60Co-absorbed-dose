@@ -6,6 +6,7 @@ MyRunAction::MyRunAction()
 
     G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
     accumulableManager->RegisterAccumulable(totalDose);
+    accumulableManager->RegisterAccumulable(totalDose2);
 }
 
 MyRunAction::~MyRunAction()
