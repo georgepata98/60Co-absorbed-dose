@@ -17,6 +17,9 @@
 
 #include "G4Box.hh"
 #include "G4Tubs.hh"
+#include "G4MultiUnion.hh"
+#include "G4Transform3D.hh"
+#include "G4RotationMatrix.hh"
 
 class MyDetectorConstruction : public G4VUserDetectorConstruction
 {
