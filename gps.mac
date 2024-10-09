@@ -13,4 +13,4 @@
 /gps/ene/type Mono
 /gps/ene/mono 1173.23 keV
 #
-/run/beamOn 1
+# /run/beamOn 1
